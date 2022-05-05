@@ -30,7 +30,5 @@ export class Triangle {
             this.isIsosceles = false
             this.isScalene = false
         }
-        
-
     }
 }
