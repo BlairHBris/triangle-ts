@@ -4,9 +4,9 @@ export class Triangle {
     sideOne: number
     sideTwo: number
     sideThree: number
-    isEquilateral: boolean
-    isIsosceles: boolean
-    isScalene: boolean
+    isEquilateral: boolean | undefined
+    isIsosceles: boolean | undefined
+    isScalene: boolean | undefined
     constructor(sideOne: number, sideTwo: number, sideThree: number) {
         this.sideOne = sideOne
         this.sideTwo = sideTwo
