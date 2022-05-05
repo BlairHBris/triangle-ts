@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/exercism/typescript"
+    "url": "git+https://github.com/exercism/typescript.git"
   },
   "type": "module",
   "engines": {
@@ -14,16 +14,24 @@
   "devDependencies": {
     "@exercism/babel-preset-typescript": "^0.1.0",
     "@exercism/eslint-config-typescript": "^0.4.1",
-    "eslint-plugin-prettier": "^4.0.0",
     "@types/jest": "^27.4.0",
     "@types/node": "^16.11.24",
     "babel-jest": "^27.5.1",
     "core-js": "^3.21.0",
     "eslint": "^8.9.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.5.1",
     "typescript": "^4.5.4"
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/exercism/typescript/issues"
+  },
+  "homepage": "https://github.com/exercism/typescript#readme",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
